@@ -43,7 +43,6 @@ docs = [
 repository = "https://github.com/Quantum-Accelerators/template"
 documentation = "https://quantum-accelerators.github.io/template/"
 changelog = "https://github.com/Quantum-Accelerators/template/blob/main/CHANGELOG.md"
-repository = "https://github.com/Quantum-Accelerators/quacc"
 
 [tool.setuptools.package-data]
 template = ["py.typed"]
