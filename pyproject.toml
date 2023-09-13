@@ -1,0 +1,134 @@
+[build-system]
+requires = ["setuptools >= 42"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "template"
+description="A Python package description goes here."
+version = "0.0.1"
+readme = "README.md"
+license = { text = "BSD-3" }
+authors = [{ name = "YourName", email = "YourName@email.com" }]
+maintainers = [{ name = "Andrew S. Rosen", email = "asrosen93@gmail.com" }]
+keywords = ["high-throughput", "automated", "workflow", "dft"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: Unix",
+    "Operating System :: MacOS",
+]
+requires-python = ">=3.9, <3.12"
+dependencies = ["numpy"]
+
+[project.optional-dependencies]
+dev = ["black>=23.7.0", "isort>=5.12.0", "pytest>=7.4.0", "pytest-cov>=3.0.0", "ruff>=0.0.285"]
+docs = [
+    "blacken-docs>=1.16.0",
+    "mkdocs-material>=9.1.21",
+    "mkdocstrings[python]>=0.22.0",
+    "mkdocs-gen-files>=0.5.0",
+    "mkdocs-literate-nav>=0.6.0",
+    "pillow>=10.0.0",
+    "cairosvg>=2.7.1"
+]
+
+[project.urls]
+repository = "https://github.com/Quantum-Accelerators/template"
+documentation = "https://quantum-accelerators.github.io/template/"
+changelog = "https://github.com/Quantum-Accelerators/template/blob/main/CHANGELOG.md"
+repository = "https://github.com/Quantum-Accelerators/quacc"
+
+[tool.setuptools.package-data]
+template = ["py.typed"]
+
+[tool.pyright]
+include = ["template"]
+exclude = ["**/__pycache__"]
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = ["-p no:warnings"]
+xfail_strict = true
+log_cli_level = "warn"
+testpaths = ["tests"]
+
+[tool.black]
+exclude = '''
+/(
+    \.git
+  | \.tox
+)/
+'''
+
+[tool.isort]
+profile = 'black'
+skip_gitignore = true
+
+[tool.coverage.run]
+source = ["src"]
+
+[tool.coverage.report]
+exclude_lines = [
+    "if TYPE_CHECKING:",
+    "if __name__ == .__main__.:",
+]
+
+[tool.ruff]
+select = [
+  "E", "F", "W", # flake8
+  "B",           # flake8-bugbear
+  "I",           # isort
+  "ARG",         # flake8-unused-arguments
+  "C4",          # flake8-comprehensions
+  "EM",          # flake8-errmsg
+  "ICN",         # flake8-import-conventions
+  "ISC",         # flake8-implicit-str-concat
+  "G",           # flake8-logging-format
+  "PGH",         # pygrep-hooks
+  "PIE",         # flake8-pie
+  "PL",          # pylint
+  "PT",          # flake8-pytest-style
+  "PTH",         # flake8-use-pathlib
+  "RET",         # flake8-return
+  "RUF",         # Ruff-specific
+  "SIM",         # flake8-simplify
+  "T20",         # flake8-print
+  "UP",          # pyupgrade
+  "YTT",         # flake8-2020
+  "EXE",         # flake8-executable
+  "NPY",         # NumPy specific rules
+  "PD",          # pandas-vet
+]
+extend-ignore = [
+  "PLR",    # Design related pylint codes
+  "E501",   # Line too long
+  "PT004",  # Use underscore for non-returning fixture (use usefixture instead)
+  "B028",   # No explicit stacklevel
+  "EM101",  # Exception must not use a string literal
+  "EM102",  # Exception must not use an f-string literal
+]
+typing-modules = ["mypackage._compat.typing"]
+src = ["src"]
+unfixable = [
+  "T20",  # Removes print statements
+  "F841", # Removes unused variables
+]
+exclude = []
+flake8-unused-arguments.ignore-variadic-names = true
+extend-exclude = ["tests"]
+pydocstyle.convention = "numpy"
+isort.known-first-party = ["template"]
+
+[tool.mypy]
+ignore_missing_imports = true
+namespace_packages = true
+explicit_package_bases = true
+no_implicit_optional = false
+disable_error_code = "annotation-unchecked"
