@@ -7,7 +7,6 @@ from importlib.metadata import version
 from ase import Atoms
 from ase import __version__ as ase_version
 from ase.io.jsonio import decode, encode
-
 from quacc.settings import QuaccSettings
 from quacc.utils.wflows import flow, job, subflow
 

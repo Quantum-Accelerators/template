@@ -1,5 +1,6 @@
 import numpy as np
 
+
 def add(a: int, b: int) -> int:
     """
     A function that adds two numbers.
