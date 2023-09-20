@@ -1,3 +1,3 @@
-# Template
+# template
 
-This is the documentation for the Template!
+This is the documentation for the template!
