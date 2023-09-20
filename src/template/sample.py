@@ -1,7 +1,7 @@
 import numpy as np
 
 
-def add(a: int, b: int) -> int:
+def add(a: float, b: float) -> float:
     """
     A function that adds two numbers.
 
@@ -14,13 +14,13 @@ def add(a: int, b: int) -> int:
     
     Returns
     -------
-    int
+    float
         The sum of a and b.
     
     """
     return a + b
 
-def make_array(val: int, length: int = 3) -> np.ndarray:
+def make_array(val: float | float, length: int = 3) -> np.ndarray:
     """
     A function to transform a number into a numpy array.
 
