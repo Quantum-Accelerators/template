@@ -9,7 +9,7 @@ version = "0.0.1"
 readme = "README.md"
 license = { text = "BSD-3" }
 authors = [{ name = "YourName", email = "YourName@email.com" }]
-keywords = ["high-throughput", "automated", "workflow", "dft"]
+keywords = ["keyword1", "keyword2"]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Science/Research",
