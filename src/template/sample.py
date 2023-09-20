@@ -22,7 +22,7 @@ def add(a: float, b: float) -> float:
     return a + b
 
 
-def make_array(val: float | float, length: int = 3) -> np.ndarray:
+def make_array(val: float, length: int = 3) -> np.ndarray:
     """
     A function to transform a number into a numpy array.
 
