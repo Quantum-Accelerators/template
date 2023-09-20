@@ -1,4 +1,5 @@
 from __future__ import annotations
+
 import numpy as np
 
 
@@ -12,14 +13,15 @@ def add(a: float, b: float) -> float:
         First number to add.
     b
         Second number to add.
-    
+
     Returns
     -------
     float
         The sum of a and b.
-    
+
     """
     return a + b
+
 
 def make_array(val: float | float, length: int = 3) -> np.ndarray:
     """
@@ -31,10 +33,10 @@ def make_array(val: float | float, length: int = 3) -> np.ndarray:
         Number to turn into an array.
     length
         The length of the array.
-    
+
     Returns
     -------
     np.ndarray
         An array composed of `val`.
     """
-    return np.array([val]*length)
+    return np.array([val] * length)
