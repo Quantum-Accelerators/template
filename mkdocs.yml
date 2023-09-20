@@ -87,18 +87,11 @@ plugins:
       nav_file: SUMMARY.md
 
 edit_uri: blob/main/docs/
-extra:
-  social:
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/RosenGroupPU
-    - icon: fontawesome/brands/github
-      link: https://github.com/Quantum-Accelerators/
 repo_url: https://github.com/Quantum-Accelerators/template/
 site_author: YourName
 site_description: >-
   This is the template package!
 site_name: template
-site_url: https://quantum-accelerators.github.io/template/
 nav:
   - Home: index.md
   - About 📜:
