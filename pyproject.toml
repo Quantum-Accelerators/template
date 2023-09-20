@@ -9,7 +9,6 @@ version = "0.0.1"
 readme = "README.md"
 license = { text = "BSD-3" }
 authors = [{ name = "YourName", email = "YourName@email.com" }]
-maintainers = [{ name = "Andrew S. Rosen", email = "asrosen@princeton.edu" }]
 keywords = ["high-throughput", "automated", "workflow", "dft"]
 classifiers = [
     "Development Status :: 3 - Alpha",
@@ -38,11 +37,6 @@ docs = [
     "pillow>=10.0.0",
     "cairosvg>=2.7.1"
 ]
-
-[project.urls]
-repository = "https://github.com/Quantum-Accelerators/template"
-documentation = "https://quantum-accelerators.github.io/template/"
-changelog = "https://github.com/Quantum-Accelerators/template/blob/main/CHANGELOG.md"
 
 [tool.setuptools.package-data]
 template = ["py.typed"]
