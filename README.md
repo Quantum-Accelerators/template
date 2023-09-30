@@ -1,8 +1,6 @@
 # template
 
-A template for Python packages. Developed by the [@quantum-accelerators](https://github.com/Quantum-Accelerators)
-
-Check out the corresponding [YouTube tutorial](https://www.youtube.com/watch?v=th2CqJ6oBuM) for full details!
+A template for Python packages. ⭐**Check out the corresponding [YouTube tutorial](https://www.youtube.com/watch?v=th2CqJ6oBuM) for full details!**⭐
 
 ## Instructions
 
