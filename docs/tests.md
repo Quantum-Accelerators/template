@@ -1,0 +1,1 @@
+8. Put any unit tests in [`tests`](tests). A [sample test](tests/sample/test_sample.py) is included as a representative example, along with a [`requirements.txt`](tests/requirements.txt) file that the GitHub actions continuous integration testing suite will use. To run the unit tests locally, run `pytest .` in the base directory.
