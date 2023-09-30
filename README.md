@@ -6,7 +6,7 @@ A template for Python packages. **Check out the corresponding ⭐[YouTube tutori
 
 1. [Create a new repository](https://github.com/new?template_name=template&template_owner=Quantum-Accelerators) using this template.
 2. Update the [`README.md`](README.md) as desired.
-3. Replace all instances of the word "template" with your package name, including the [`src/template`](src/template) folder and all entries of `template` in the various files (e.g. by using `Ctrl+Shift+H` to find-and-replalce in VS Code).
+3. Replace all instances of the word "template" with your package name, including the [`src/template`](src/template) folder and all entries of "template" in the various files (e.g. by using `Ctrl+Shift+H` to find-and-replalce in VS Code).
 4. Update the [`pyproject.toml`](pyproject.toml) file to suit your package, such as specifying any necessary `dependencies` (which is set to `["numpy"]` by default). You can always edit this later if you're not sure.
 5. Install the package in editable mode, including the development and documentation dependencies so you can run unit tests and build the documentation. This is done by running `pip install -e .[dev,docs]` in the base directory, ideally in a fresh Python environment.
 6. Put any source code in the `src/<package name>` directory. A sample file named [`sample.py`](src/template/sample.py) is included here as a representative example.
