@@ -11,6 +11,6 @@ A template for Python packages. ⭐**Check out the corresponding [YouTube tutori
 5. Install the package in editable mode, including the development and documentation dependencies so you can run unit tests and build the documentation. This is done by running `pip install -e .[dev,docs]` in the base directory, ideally in a fresh Python environment.
 6. Put any source code in the `src/<package name>` directory. A sample file named [`sample.py`](src/template/sample.py) is included here as a representative example.
 7. Put any unit tests in [`tests`](tests). A [sample test](tests/sample/test_sample.py) is included as a representative example, along with a [`requirements.txt`](tests/requirements.txt) file that the GitHub actions continuous integration testing suite will use. To run the unit tests locally, run `pytest .` in the base directory.
-9. Put any documentation in [`docs`](docs) with the desired layout specified in the `nav` secction of the [`mkdocs.yml`](mkdocs.yml) file in the base directory. To build the documentation, run `mkdocs serve` in the base directory.
+8. Put any documentation in [`docs`](docs) with the desired layout specified in the `nav` secction of the [`mkdocs.yml`](mkdocs.yml) file in the base directory. To build the documentation, run `mkdocs serve` in the base directory.
 
 You now have everything you need to make a robust and sustainable Python package!
