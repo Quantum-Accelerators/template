@@ -2,7 +2,7 @@ import numpy as np
 import pytest
 from numpy.testing import assert_allclose
 
-from template.sample import add, make_array, divide
+from template.sample import add, divide, make_array
 
 
 def test_add():
