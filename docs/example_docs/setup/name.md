@@ -1,6 +1,6 @@
 # Updating the Name
 
-To make sure everything plays nicely with your own code, replace all instances of the word "template" with your package name.
+Now for your first major task: **replace all instances of the word "template" with your desired package name**.
 
 !!! Note
 

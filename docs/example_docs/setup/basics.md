@@ -1,4 +1,4 @@
-# Setting the Stage
+# Initial Changes
 
 At this point, you now have your template repository on GitHub and locally on your machine. Now it's time to start making some modifications.
 

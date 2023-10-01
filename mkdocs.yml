@@ -5,27 +5,30 @@ site_description: >-
 nav:
   - Home: index.md
   - Overview:
-      - intro/why.md
+      - example_docs/intro/why.md
   - Setup:
-      - setup/prep.md
-      - setup/name.md
-      - setup/basics.md
+      - example_docs/setup/prep.md
+      - example_docs/setup/name.md
+      - example_docs/setup/basics.md
   - Installation:
-      - installation/pyproject.md
-      - installation/install.md
+      - example_docs/installation/pyproject.md
+      - example_docs/installation/install.md
   - Code:
-      - code/source.md
-  - Continuous Integration:
-      - ci/tests.md
-      - ci/workflows.md
+      - example_docs/code/source.md
   - Documentation:
-      - mkdocs/docs.md
-  - Wrap-Up:
-      - wrapup/commits.md
+      - example_docs/mkdocs/docs.md
+  - Uploading to GitHub:
+      - example_docs/wrapup/commits.md
+  - Continuous Integration:
+      - example_docs/ci/tests.md
+      - example_docs/ci/workflows.md
+  - Miscellaneous:
+      - example_docs/other/misc.md
   - About:
-      - about/changelog.md
-      - about/conduct.md
-      - about/license.md
+      - example_docs/about/changelog.md
+      - example_docs/about/conduct.md
+      - example_docs/about/license.md
+  - Code Documentation: reference/
 
 repo_url: https://github.com/Quantum-Accelerators/template/
 edit_uri: blob/main/docs/

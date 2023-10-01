@@ -19,18 +19,6 @@ If you are using a program like GitKraken, this will involve the following steps
 
 Then go on GitHub to see your changes. Assuming you pushed your changes to a new branch, you'll likely see a message asking if you want to make a Pull Request to merge in your changes into the `main` branch.
 
-## Deploying Your Documentation
-
-To have your documentation automatically deployed on a GitHub webpage:
-
-1. Go to the settings page of your repository.
-2. Click the "Pages" section under "Code and automation."
-3. Select "Deploy from a branch" under "Source"
-4. Set the branch to be "gh-pages" with "/ (root)" as the folder.
-5. Wait a minute and refresh the page. You'll see a message that your site is live with a URL to the documentation.
-
-![](../media/deploy_docs.png)
-
 ## That's All, Folks!
 
 You now have everything you need to make a robust and sustainable Python package! Happy programming!
