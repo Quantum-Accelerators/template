@@ -2,7 +2,7 @@
 
 ## Adding Your Code
 
-All source code (i.e. your various modules, functions, classes, and so on) should be placed in the [`/src/<MyPackageName>`] directory. A sample file named `examples/sample.py` is included here as a representative example, which you should replace.
+All source code (i.e. your various modules, functions, classes, and so on) should be placed in the `/src/<MyPackageName>` directory. A sample file named `examples/sample.py` is included here as a representative example, which you should replace.
 
 All the code in the `src` directory can be imported now that you have installed your package.
 
