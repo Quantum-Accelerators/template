@@ -4,7 +4,7 @@ At this point, you now have your template repository on GitHub and locally on yo
 
 ### README
 
-The first thing to do is update the [README.md](../../README.md) file, which should contain a reader-friendly summary of what your package is all about. This can be whatever you want. Feel free to be creative!
+The first thing to do is update the [README.md](../../README.md) file, which should contain a user-friendly summary of what your package is all about. This can be whatever you want. Feel free to be creative!
 
 ### License
 
@@ -12,7 +12,7 @@ The template repository comes premade with a sample [LICENSE.md](../../LICENSE.m
 
 !!! Tip
 
-    There are *many* licenses that one can consider. A useful list can be found on the [Open Source Initiative](https://opensource.org/licenses/?categories=popular-strong-community) website.
+    There are *many* licenses that one can consider. A comprehensive list can be found on the [Open Source Initiative](https://opensource.org/licenses/?categories=popular-strong-community) website, but a less overwhelming route is to use [choosealicense.com](https://choosealicense.com/).
 
 ### Code of Conduct
 

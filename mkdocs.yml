@@ -1,3 +1,34 @@
+edit_uri: blob/main/docs/
+repo_url: https://github.com/Quantum-Accelerators/template/
+site_author: YourName
+site_description: >-
+  This is the template package!
+site_name: template
+nav:
+  - Home: index.md
+  - Why?:
+      - intro/why.md
+  - Setup:
+      - setup/prep.md
+      - setup/name.md
+      - setup/basics.md
+  - Installation:
+      - installation/pyproject.toml
+      - installation/install.md
+  - Code:
+      - code/source.md
+  - Continuous Integration:
+      - ci/tests.md
+      - ci/workflows.md
+  - Wrapup:
+      - wrapup/commits.md
+  - Miscellaneous:
+      - other/misc.md
+  - About:
+      - about/changelog.md
+      - about/conduct.md
+      - about/license.md
+
 theme:
   features:
     - content.action.edit
@@ -85,16 +116,3 @@ plugins:
         - docs/gen_ref_pages.py
   - literate-nav:
       nav_file: SUMMARY.md
-
-edit_uri: blob/main/docs/
-repo_url: https://github.com/Quantum-Accelerators/template/
-site_author: YourName
-site_description: >-
-  This is the template package!
-site_name: template
-nav:
-  - Home: index.md
-  - About 📜:
-      - about/changelog.md
-      - about/conduct.md
-      - about/license.md

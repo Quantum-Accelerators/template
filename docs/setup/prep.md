@@ -18,22 +18,24 @@ With a nice name in mind, [create a new repository](https://github.com/new?templ
 
 You'll now want to [clone the repository](https://github.com/git-guides/git-clone) to your local machine so you can easily make changes.
 
+### Via a Desktop Client
+
+You can use a desktop client to interface with GitHub. It is worthwhile to learn how to use such a program for your day-to-day work and is what we recommend.
+
+!!! Tip
+
+    We strongly suggest using [GitKraken](https://www.gitkraken.com/) to interface with git and GitHub. GitKraken Pro is also [free for students](https://help.gitkraken.com/gitkraken-client/gitkraken-edu-pack/).
+
+![](../media/gitkraken_clone.png)
+
 ### Via the Command Line
 
-You can clone the repository via the following command in the command-line, provided you have [git](https://git-scm.com/) installed.
+If you prefer, you can instead clone the repository via the following command in the command-line, provided you have [git](https://git-scm.com/) installed.
 
 ```bash
 git clone https://github.com/MyAccountName/MyPackageName
 ```
 
+You can get the URL directly from the GitHub page when you click the green "<> Code" button.
+
 ![](../media/clone.png)
-
-### Via a Desktop Client
-
-Alternatively, you can use a desktop client to interface with GitHub.
-
-!!! Tip
-
-    We highly recommend using [GitKraken](https://www.gitkraken.com/) to interface with git and GitHub. GitKraken Pro is also [free for students](https://help.gitkraken.com/gitkraken-client/gitkraken-edu-pack/).
-
-![](../media/gitkraken_clone.png)
