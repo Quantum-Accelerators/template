@@ -1,5 +1,7 @@
 # Why?
 
+## Purpose
+
 The first question to address is: why? Why use a template repository like this? Why make a Python package at all, as opposed to writing custom scripts or Jupyter Notebooks?
 
 The answer, in short, is _sustainable and reproducible_ software development. Here are some of the benefits:
@@ -10,6 +12,14 @@ The answer, in short, is _sustainable and reproducible_ software development. He
 - You will instantly be adopting good programming practices that will help you for life.
 
 Of course, there are many more reasons, but hopefully that's convincing enough!
+
+!!! Tip
+
+    Looking for resources to get started with software development? Check out the [Scientific Python Development Guide](https://learn.scientific-python.org/development/). The [Turing Way Guide for Reproducible Research](https://the-turing-way.netlify.app/reproducible-research/reproducible-research.html) and [Turing Way Guide for Project Design](https://the-turing-way.netlify.app/project-design/project-design.html) are also useful.
+
+!!! Tip
+
+    Looking for resources to learn git and version control? Check out the [Git Guides](https://github.com/git-guides), [Software Carpentry](https://swcarpentry.github.io/git-novice/), or [Turing Way](https://the-turing-way.netlify.app/reproducible-research/vcs.html). Additionally, check out [GitHub Docs](https://docs.github.com/en/get-started/quickstart/hello-world) and [GitHub Skills](https://skills.github.com/) for resources to learn about GitHub specifically.
 
 ## Alternatives
 

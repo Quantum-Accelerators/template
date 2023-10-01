@@ -37,5 +37,3 @@ git clone https://github.com/MyAccountName/MyPackageName
 ```
 
 You can get the URL directly from the GitHub page when you click the green "<> Code" button.
-
-![](../media/clone.png)
