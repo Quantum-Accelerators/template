@@ -6,7 +6,7 @@ Writing effective tests for your code is a crucial part of the programming proce
 
 ## Pytest
 
-Put any unit tests in the `/tests` folder. A sample test (i.e. `/tests/sample/test_sample.py`) is included as a representative example.
+Put any unit tests in the `/tests` folder. A sample test (i.e. `/tests/sample/examples/test_sample.py`) is included as a representative example.
 
 !!! Note
 
