@@ -4,8 +4,10 @@ site_description: >-
   This is the template package!
 nav:
   - Home: index.md
+  - Code Documentation: reference/ # keep me!
   - Overview:
       - example_docs/intro/why.md
+      - example_docs/intro/resources.md
   - Setup:
       - example_docs/setup/prep.md
       - example_docs/setup/name.md
@@ -15,20 +17,21 @@ nav:
       - example_docs/installation/install.md
   - Code:
       - example_docs/code/source.md
+      - example_docs/code/hints.md
+      - example_docs/code/tests.md
   - Documentation:
       - example_docs/mkdocs/docs.md
-  - Uploading to GitHub:
-      - example_docs/wrapup/commits.md
-  - Continuous Integration:
-      - example_docs/ci/tests.md
-      - example_docs/ci/workflows.md
+      - example_docs/mkdocs/build.md
+  - GitHub and CI:
+      - example_docs/github/commits.md
+      - example_docs/github/workflows.md
   - Miscellaneous:
-      - example_docs/other/misc.md
+      - example_docs/other/linting.md
+      - example_docs/other/apps.md
   - About:
       - example_docs/about/changelog.md
       - example_docs/about/conduct.md
       - example_docs/about/license.md
-  - Code Documentation: reference/
 
 repo_url: https://github.com/Quantum-Accelerators/template/
 edit_uri: blob/main/docs/

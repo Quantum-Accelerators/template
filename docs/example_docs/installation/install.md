@@ -1,6 +1,6 @@
 # Pip Installing
 
-Now it's time to install your Python package! You will want to install your Python package in "editable" mode, which means you won't have to re-install your code every time you make updates to it. Additionally, you will want to install several optional dependencies (listed under the `[projeoct.optional-dependencies]` header in `pyproject.toml`) to ensure that you can test and build the documentation for your code.
+Now it's time to install your Python package! You will want to install your Python package in "editable" mode, which means you won't have to re-install your code every time you make updates to it. Additionally, you will want to install several optional dependencies (listed under the `[project.optional-dependencies]` header in `pyproject.toml`) to ensure that you can test and build the documentation for your code.
 
 With all this in mind, you will want to run the following in the command line from the base of the package directory:
 

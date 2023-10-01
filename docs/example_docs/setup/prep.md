@@ -20,7 +20,7 @@ You'll now want to [clone the repository](https://github.com/git-guides/git-clon
 
 ### Via a Desktop Client
 
-You can use a desktop client to interface with GitHub. It is worthwhile to learn how to use such a program for your day-to-day work and is what we recommend.
+You can use a desktop client to interface with GitHub. It is worthwhile to learn how to use such a program for your day-to-day work.
 
 !!! Tip
 
@@ -30,7 +30,7 @@ You can use a desktop client to interface with GitHub. It is worthwhile to learn
 
 ### Via the Command Line
 
-If you prefer, you can instead clone the repository via the following command in the command-line, provided you have [git](https://git-scm.com/) installed.
+If you prefer, you can clone the repository via the following command in the command-line, provided you have [git](https://git-scm.com/) installed.
 
 ```bash
 git clone https://github.com/MyAccountName/MyPackageName
