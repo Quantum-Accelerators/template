@@ -4,7 +4,6 @@ site_description: >-
   This is the template package!
 nav:
   - Home: index.md
-  - Code Documentation: reference/ # keep me!
   - Overview:
       - example_docs/intro/why.md
       - example_docs/intro/resources.md
@@ -28,6 +27,7 @@ nav:
   - Miscellaneous:
       - example_docs/other/linting.md
       - example_docs/other/apps.md
+  - Code Documentation: reference/ # keep me!
   - About:
       - example_docs/about/changelog.md
       - example_docs/about/conduct.md
