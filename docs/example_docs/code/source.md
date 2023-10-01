@@ -2,16 +2,16 @@
 
 ## Adding Your Code
 
-All source code (i.e. your various modules, functions, classes, and so on) should be placed in the [`/src/<MyPackageName>`] directory. A sample file named `sample.py` is included here as a representative example, which you should replace.
+All source code (i.e. your various modules, functions, classes, and so on) should be placed in the [`/src/<MyPackageName>`] directory. A sample file named `examples/sample.py` is included here as a representative example, which you should replace.
 
 All the code in the `src` directory can be imported now that you have installed your package.
 
 !!! Tip
 
-    As an example, you can import and use the demonstration [template.sample][] functions as follows:
+    As an example, you can import and use the demonstration [template.examples.sample][] functions as follows:
 
     ```python
-    from MyPackageName.sample import add, make_array
+    from MyPackageName.examples.sample import add, make_array
 
     print(add(1, 2)) # 3
     print(make_array(3, length=4)) # [3, 3, 3, 3]

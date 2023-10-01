@@ -12,7 +12,7 @@ If you aren't familiar with [type-hinting](https://docs.python.org/3/library/typ
 
 !!! Tip
 
-    If you have to import a given function solely for type-hinting purposes, you should put it within an [`if TYPE_CHECKING` block](https://docs.python.org/3/library/typing.html#typing.TYPE_CHECKING) (as demonstrated in `/src/template/sample.py`). It will then only be imported when using a type-checking utility, reducing the overall import time of your module.
+    If you have to import a given function solely for type-hinting purposes, you should put it within an [`if TYPE_CHECKING` block](https://docs.python.org/3/library/typing.html#typing.TYPE_CHECKING) (as demonstrated in `/src/template/examples/sample.py`). It will then only be imported when using a type-checking utility, reducing the overall import time of your module.
 
 !!! Note
 
