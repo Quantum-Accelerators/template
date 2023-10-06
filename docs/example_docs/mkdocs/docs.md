@@ -1,4 +1,4 @@
-# Documentation
+# Writing the Docs
 
 ## Mkdocs
 
