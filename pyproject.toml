@@ -67,7 +67,7 @@ skip_gitignore = true
 source = ["src"]
 
 [tool.coverage.report]
-exclude_lines = [
+exclude_also = [
     "if TYPE_CHECKING:",
     "if __name__ == .__main__.:",
     "except ImportError",
