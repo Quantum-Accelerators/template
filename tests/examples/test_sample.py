@@ -1,12 +1,15 @@
 import pytest
 
+import numpy as np
+from numpy.testing import assert_allclose, assert_array_equal
+
+from template.examples.sample import add, divide, make_array
+
 
 def test_add():
     """
     Test that the addition function works.
     """
-    from template.examples.sample import add
-
     assert add(1, 2) == 3
 
 
@@ -20,8 +23,6 @@ def test_divide():
     Also note that we can test that a given error is raised
     by using `pytest.raises(<error>)`.
     """
-    from template.examples.sample import divide
-
     assert divide(3, 2) == pytest.approx(1.5)
 
     with pytest.raises(ValueError):
@@ -36,10 +37,5 @@ def test_make_array():
     numpy arrays are the same. We also use `assert_allclose()`,
     which is effectively an element-wise call to `pytest.approx()`.
     """
-    import numpy as np
-    from numpy.testing import assert_allclose, assert_array_equal
-
-    from template.examples.sample import divide, make_array
-
     assert_array_equal(make_array(3), np.array([3, 3, 3]))
     assert_allclose(make_array(divide(3, 2), length=4), np.array([1.5, 1.5, 1.5, 1.5]))
