@@ -17,13 +17,14 @@ classifiers = [
     "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
     "Intended Audience :: Science/Research",
     "Topic :: Scientific/Engineering",
     "Operating System :: Microsoft :: Windows",
     "Operating System :: Unix",
     "Operating System :: MacOS",
 ]
-requires-python = ">=3.9, <3.12"
+requires-python = ">=3.9, <3.13"
 dependencies = ["numpy"]
 
 [project.optional-dependencies]
