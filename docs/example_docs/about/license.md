@@ -1,5 +1,5 @@
 # License
 
 ```title="LICENSE.md"
---8<-- "../template/LICENSE.md"
+--8<-- "LICENSE.md"
 ```
