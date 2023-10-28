@@ -1,1 +1,1 @@
---8<-- "../template/CHANGELOG.md"
+--8<-- "CHANGELOG.md"
