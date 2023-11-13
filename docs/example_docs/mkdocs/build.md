@@ -17,3 +17,7 @@ mkdocs serve
 ```
 
 A URL will be printed out that you can open in your browser.
+
+## Deploying the Docs
+
+To allow your documentation to be visible via GitHub Pages, go to "Settings > Pages" in your repository's settings and make sure "Branch" is set to "gh-pages" instead of "main".
