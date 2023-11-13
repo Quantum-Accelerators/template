@@ -1,3 +1,3 @@
 # template
 
-A simple-to-use template for Python packages.
+A simple-to-use resource for generating open-source Python packages.
