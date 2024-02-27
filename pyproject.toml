@@ -50,6 +50,7 @@ minversion = "6.0"
 addopts = ["-p no:warnings", "--import-mode=importlib"]
 xfail_strict = true
 log_cli_level = "warn"
+pythonpath = "src"
 testpaths = ["tests"]
 
 [tool.black]
@@ -59,6 +60,7 @@ exclude = '''
   | \.tox
 )/
 '''
+skip-magic-trailing-comma = true
 
 [tool.isort]
 profile = 'black'
@@ -75,7 +77,7 @@ exclude_also = [
 ]
 
 [tool.ruff]
-select = [
+lint.select = [
   "E", "F", "W", # flake8
   "B",           # flake8-bugbear
   "I",           # isort
@@ -100,25 +102,28 @@ select = [
   "NPY",         # NumPy specific rules
   "PD",          # pandas-vet
 ]
-extend-ignore = [
+lint.extend-ignore = [
   "PLR",    # Design related pylint codes
   "E501",   # Line too long
-  "PT004",  # Use underscore for non-returning fixture (use usefixture instead)
   "B028",   # No explicit stacklevel
   "EM101",  # Exception must not use a string literal
   "EM102",  # Exception must not use an f-string literal
+  "G004",   # f-string in Logging statement
+  "RUF015", # Prefer next(iter())
+  "RET505", # Unnecessary `elif` after `return`
 ]
-typing-modules = ["mypackage._compat.typing"]
-src = ["src"]
-unfixable = [
+lint.typing-modules = ["mypackage._compat.typing"]
+lint.unfixable = [
   "T20",  # Removes print statements
   "F841", # Removes unused variables
 ]
+lint.flake8-unused-arguments.ignore-variadic-names = true
+lint.pydocstyle.convention = "numpy"
+lint.isort.required-imports = ["from __future__ import annotations"]
+lint.isort.known-first-party = ["template"]
+src = ["src"]
 exclude = []
-flake8-unused-arguments.ignore-variadic-names = true
 extend-exclude = ["tests"]
-pydocstyle.convention = "numpy"
-isort.known-first-party = ["template"]
 
 [tool.docformatter]
 pre-summary-newline = true
