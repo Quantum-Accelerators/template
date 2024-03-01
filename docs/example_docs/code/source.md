@@ -13,8 +13,8 @@ All the code in the `src` directory can be imported now that you have installed 
     ```python
     from MyPackageName.examples.sample import add, make_array
 
-    print(add(1, 2)) # 3
-    print(make_array(3, length=4)) # [3, 3, 3, 3]
+    print(add(1, 2))  # 3
+    print(make_array(3, length=4))  # [3, 3, 3, 3]
     ```
 
 !!! Note
