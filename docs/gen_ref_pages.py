@@ -3,6 +3,7 @@ Generate the code reference pages and navigation.
 
 You never have to run this manually!
 """
+
 from __future__ import annotations
 
 from pathlib import Path

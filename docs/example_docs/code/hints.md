@@ -4,7 +4,7 @@
 
 In the sample functions provided with the template repository, you will see something like:
 
-```python
+```
 def make_array(val: float, length: int = 3) -> NDArray:
 ```
 
