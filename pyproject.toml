@@ -136,6 +136,10 @@ lint.pydocstyle.convention = "numpy"
 lint.isort.known-first-party = ["template"]
 lint.isort.required-imports = ["from __future__ import annotations"]
 
+[tool.ruff.lint.per-file-ignores]
+"__init__.py" = ["F401"]
+"tests/**" = ["ANN201", "D", "E402", "S101"]
+
 [tool.docformatter]
 pre-summary-newline = true
 black = true
