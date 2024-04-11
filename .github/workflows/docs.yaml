@@ -30,7 +30,7 @@ jobs:
         run: |
           pip install uv
           uv pip install --system -r tests/requirements.txt
-          uv pip install .[docs]
+          uv pip install --system .[docs]
 
       - name: Build docs
         run: mkdocs build
