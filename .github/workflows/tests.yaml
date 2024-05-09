@@ -34,8 +34,7 @@ jobs:
       - name: Install pip packages
         run: |
           pip install uv
-          uv pip install --system -r tests/requirements.txt
-          uv pip install --system .[dev]
+          uv pip install --system -r tests/requirements.txt .[dev]
 
       - name: Run tests with pytest
         run: pytest --cov=template --cov-report=xml
