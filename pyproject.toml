@@ -24,7 +24,7 @@ classifiers = [
     "Operating System :: Unix",
     "Operating System :: MacOS",
 ]
-requires-python = ">=3.9, <3.13"
+requires-python = ">=3.9"
 dependencies = ["numpy"]
 
 [project.optional-dependencies]
