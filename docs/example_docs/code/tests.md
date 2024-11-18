@@ -13,3 +13,7 @@ Put any unit tests in the `/tests` folder. A sample test (i.e. `/tests/sample/ex
     All your testing scripts should start with `test_` in the filename.
 
 When you installed the package with the `[dev]` extras, you installed everything you need to run your unit tests. To run the unit tests locally, run `pytest .` in the base directory. It will let you know if any tests fail and what the reason is for each failure.
+
+## Code Coverage
+
+The `/.codecov.yml` file is a configuration file for [Codecov](https://codecov.io/), which will tell you the fraction of lines covered by your test suite if the GitHub integration is enabled.
