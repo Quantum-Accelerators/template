@@ -11,10 +11,9 @@ license = { text = "BSD-3" }
 authors = [{ name = "YourName", email = "YourName@email.com" }]
 keywords = ["MyKeyword1", "MyKeyword2"]
 classifiers = [
-    "Development Status :: 3 - Alpha",
+    "Development Status :: 4 - Beta",
     "Intended Audience :: Science/Research",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
@@ -86,6 +85,7 @@ lint.select = [
   "A",      # flake8-builtins
   "ARG",    # flake8-unused-arguments
   "ASYNC",  # flake8-async
+  "ASYNC1", # flake8-async1
   "B",      # flake8-bugbear
   "C4",     # flake8-comprehensions
   "DTZ",    # flake8-datetimez
@@ -116,7 +116,6 @@ lint.select = [
   "T20",    # flake8-print
   "TCH",    # flake8-type-checking
   "TID",    # flake8-tidy-imports
-  "TRIO",   # flake8-trio
   "UP",     # pyupgrade
   "W",      # pycodestyle warning
   "YTT",    # flake8-2020
@@ -124,11 +123,9 @@ lint.select = [
 lint.ignore = [
   "E501",   # Line too long
   "ISC001",   # single-line-implicit-string-concatenation
-  "PERF203",  # try-except-in-loop
   "PLR",    # Design related pylint codes
+  "PERF203",  # try-except-in-loop
   "PT004",  # Fixture does not return anything
-  "PT011",  # pytest.raises
-  "PT012",  # pytest.raises
   "RET505", # Unnecessary `elif` after `return`
 ]
 src = ["src"]
@@ -139,7 +136,12 @@ lint.unfixable = [
 lint.pydocstyle.convention = "numpy"
 lint.isort.known-first-party = ["template"]
 lint.isort.required-imports = ["from __future__ import annotations"]
+lint.isort.split-on-trailing-comma=false
 extend-include = ["*.ipynb"]
+
+[tool.ruff.format]
+docstring-code-format = true
+skip-magic-trailing-comma = true
 
 [tool.ruff.lint.per-file-ignores]
 "__init__.py" = ["F401"]
