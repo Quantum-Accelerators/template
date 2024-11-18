@@ -26,7 +26,7 @@ def test_divide():
     """
     assert divide(3, 2) == pytest.approx(1.5)
 
-    with pytest.raises(ValueError):
+    with pytest.raises(ValueError, match="Uh oh! The value for b should not be 0"):
         divide(10, 0)
 
 
