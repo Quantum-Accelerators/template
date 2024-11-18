@@ -24,9 +24,6 @@ nav:
   - GitHub and CI:
       - example_docs/github/commits.md
       - example_docs/github/workflows.md
-  - Miscellaneous:
-      - example_docs/other/linting.md
-      - example_docs/other/apps.md
   - Code Documentation: reference/ # keep me!
   - About:
       - example_docs/about/changelog.md
