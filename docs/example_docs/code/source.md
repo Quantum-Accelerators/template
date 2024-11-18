@@ -24,3 +24,7 @@ All the code in the `src` directory can be imported now that you have installed 
 ## Docstrings
 
 The code comments beneath each function are called docstrings. They should provide an overview of the purpose of the function, the various parameters, and the return values (if any). Here, we are using the [NumPy style](https://numpydoc.readthedocs.io/en/latest/format.html) docstrings, but you can pick a different style if you like later on.
+
+## Linting and Formatting
+
+When you installed the `[dev]` dependencies, you also installed [`ruff`](https://docs.astral.sh/ruff/), which is a versatile Python linter to clean up your code. To run `ruff`, use the following command in the base directory: `ruff check --fix`. This will also be done automatically on pull requests via the pre-commit CI tool.
