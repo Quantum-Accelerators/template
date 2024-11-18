@@ -17,6 +17,7 @@ Of course, there are many more reasons, but hopefully that's convincing enough!
 
 This is by no means the only template of its kind. Some alternatives include:
 
+- [cookiecutter-cms](https://github.com/MolSSI/cookiecutter-cms)
 - [cookiecutter](https://github.com/cookiecutter/cookiecutter)
 - [pyscaffold](https://github.com/pyscaffold/pyscaffold)
 - [python-package-template](https://github.com/microsoft/python-package-template)
