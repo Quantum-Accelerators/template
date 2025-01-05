@@ -1,4 +1,8 @@
 name: tests
+
+env:
+  PY_COLORS: 1
+
 on:
   push:
     branches: [main]
@@ -35,6 +39,10 @@ jobs:
         run: |
           pip install uv
           uv pip install --system -r tests/requirements.txt .[dev]
+
+      - name: Set coverage core
+        run: |
+          echo "COVERAGE_CORE=sysmon" >> $GITHUB_ENV
 
       - name: Run tests with pytest
         run: pytest --cov=template --cov-report=xml
