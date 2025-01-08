@@ -17,3 +17,5 @@ When you installed the package with the `[dev]` extras, you installed everything
 ## Code Coverage
 
 The `/.codecov.yml` file is a configuration file for [Codecov](https://codecov.io/), which will tell you the fraction of lines covered by your test suite if the GitHub integration is enabled.
+
+In order for Codecov to work properly, you will need to make a Codecov account and activate it on your newly made repository.
