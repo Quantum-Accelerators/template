@@ -30,10 +30,8 @@ dependencies = ["numpy"]
 [project.optional-dependencies]
 dev = ["pytest>=7.4.0", "pytest-cov>=3.0.0", "ruff>=0.0.285"]
 docs = [
-    "mkdocs-material>=9.4.0",
     "mkdocstrings-python>=2.0.0",
-    "mkdocs-gen-files>=0.5.0",
-    "mkdocs-literate-nav>=0.6.0",
+    "zensical>=0.0.24",
     "pillow>=10.0.0",
     "cairosvg>=2.7.1"
 ]

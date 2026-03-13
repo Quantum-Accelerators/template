@@ -110,11 +110,11 @@ plugins:
             docstring_section_style: list
             separate_signature: true
             merge_init_into_class: true
-            docstring_options:
-              ignore_init_summary: true
             show_signature_annotations: true
             signature_crossrefs: true
             show_if_no_docstring: true
+            docstring_options:
+              ignore_init_summary: true
   - gen-files:
       scripts:
         - docs/gen_ref_pages.py
