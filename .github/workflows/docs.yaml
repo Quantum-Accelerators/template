@@ -31,10 +31,19 @@ jobs:
           pip install uv
           uv pip install --system .[docs]
 
+      - name: Generate reference pages
+        run: python .github/scripts/gen_ref_pages.py
+
+      - name: Generate zensical.toml
+        run: python .github/scripts/gen_zensical_toml.py
+
       - name: Build docs
-        run: mkdocs build
+        run: zensical build --clean
         id: build_docs
 
-      - name: Rebuild and deploy docs
-        run: mkdocs gh-deploy --force
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
         if: github.ref == 'refs/heads/main' && steps.build_docs.outcome == 'success'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
