@@ -32,7 +32,7 @@ dev = ["pytest>=7.4.0", "pytest-cov>=3.0.0", "ruff>=0.0.285"]
 docs = [
     "mkdocstrings-python>=2.0.0",
     "zensical>=0.0.24",
-    "pillow>=10.0.0",
+    "pillow>=11.3.0",
     "cairosvg>=2.7.1"
 ]
 
