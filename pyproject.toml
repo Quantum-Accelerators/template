@@ -28,7 +28,7 @@ requires-python = ">=3.9"
 dependencies = ["numpy"]
 
 [project.optional-dependencies]
-dev = ["pytest>=8.4.2", "pytest-cov>=3.0.0", "ruff>=0.0.285"]
+dev = ["pytest>=8.4.2", "pytest-cov>=3.0.0", "ruff>=0.15.13"]
 docs = [
     "mkdocstrings-python>=2.0.0",
     "zensical>=0.0.24",
