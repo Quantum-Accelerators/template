@@ -33,7 +33,7 @@ docs = [
     "mkdocstrings-python>=2.0.7",
     "zensical>=0.0.24",
     "pillow>=12.3.0",
-    "cairosvg>=2.8.2"
+    "cairosvg>=2.9.0"
 ]
 
 [project.urls]
